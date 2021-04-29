@@ -1,1 +1,1 @@
-python3 src/app.py
+python mafia_host_bot

@@ -7,7 +7,7 @@ REQUEST_OVERDUE_TIME = 10 * 60  # Time (in seconds) of request's inactivity afte
 WORD_BASE = '/root/test4/src/words.txt'  # File encoded with cp1251 containing word on each line
 DELETE_FROM_EVERYONE = False  # Should bot delete messages from everyone in the chat and not just players?
 
-SET_WEBHOOK = True  # Uses long polling if set to False
+SET_WEBHOOK = False  # Uses long polling if set to False
 if SET_WEBHOOK:  # Refer to https://core.telegram.org/bots/webhooks to learn how to setup webhook components
     SERVER_IP = '91.238.104.150'
     SERVER_PORT = 22

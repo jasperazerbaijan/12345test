@@ -16,8 +16,7 @@
 
 from pymongo import MongoClient, ReturnDocument
 
-client = MongoClient("mongodb+srv://mafia:MaFiA123@cluster0.nrvuo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-")
+client = MongoClient("mongodb+srv://mafia:MaFiA123@cluster0.nrvuo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 database = client.mafia_host_bot
 
 

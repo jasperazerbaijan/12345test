@@ -1,4 +1,4 @@
-TOKEN = '1744731804:AAHzFdQWqmUnm2MMu_aqRdMVPXKDDtvLG_Q'  # Learn how to get one on https://core.telegram.org/bots#6-botfather
+TOKEN = '1744731804:AAFqSo11XWfoytzUupsm6yCUn5iwWtYMGb8'  # Learn how to get one on https://core.telegram.org/bots#6-botfather
 ADMIN_ID = 940086446
 SKIP_PENDING = False  # Skip pending updates on bot startup
 PLAYERS_COUNT_TO_START = 4  # Minimal quantity of players that is required to start mafia game
@@ -9,8 +9,8 @@ DELETE_FROM_EVERYONE = False  # Should bot delete messages from everyone in the 
 
 SET_WEBHOOK = True  # Uses long polling if set to False
 if SET_WEBHOOK:  # Refer to https://core.telegram.org/bots/webhooks to learn how to setup webhook components
-    SERVER_IP = '216.239.32.68'
-    SERVER_PORT = 80
+    SERVER_IP = '91.238.104.150'
+    SERVER_PORT = 22
     SSL_CERT = '/root/cert/PUBLIC.pem'  # File path of public SSL certificate
     SSL_PRIV = '/root/cert/PRIVATE.key'  # File path of private key of SSL certificate
 
